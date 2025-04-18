@@ -1,5 +1,5 @@
 # Stage 1: Build web client
-FROM node:20-alpine AS client_builder
+FROM node:23-alpine AS client_builder
 
 ENV NODE_VERSION=20
 WORKDIR /app/web/client
